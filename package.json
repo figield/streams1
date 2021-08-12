@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "dev-null": "0.1.1",
     "split2": "3.1.1",
     "through2": "3.0.1"
   }

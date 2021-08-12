@@ -1,5 +1,5 @@
 var fs = require("fs");
-var stream = fs.createWriteStream("./tmp.log");
+var stream = fs.createWriteStream("./tmp.log", {flags: 'a'});
 stream.on('finish', function() {
     console.log("finish");
 });
